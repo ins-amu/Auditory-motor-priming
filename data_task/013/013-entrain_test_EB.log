@@ -1,0 +1,92 @@
+Scenario - test
+Logfile written - 10/17/2022 13:59:14
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+013	1	Sound	P2/both	25327	25000	1			25000		other	0
+013	1	Response	53	28348	28021	2
+013	1	Response	53	33307	32980	2
+013	1	Response	53	37628	37300	1
+013	1	Response	53	43708	43380	2
+013	1	Response	53	50028	49701	1
+013	1	Response	53	55467	55140	2
+013	1	Response	53	61788	61461	1
+013	1	Response	53	67308	66981	1
+013	1	Sound	practise2	71827	71500	1			71500		other	0
+013	1	Response	53	75307	74980	2
+013	1	Picture	2-11-1-2	130645	130318	7	5166	7	130000	5000	hit	13
+013	1	Response	61	143788	143461	3
+013	2	Sound	P2/beat	176142	25000	1			25000		other	0
+013	2	Sound	practise3	222643	71500	1			71500		other	0
+013	2	Picture	2-22-1-2	281461	130318	7	5166	7	130000	5000	hit	17
+013	2	Response	62	294188	143045	1
+013	3	Response	53	326907	24949	2
+013	3	Sound	P1/tapping	326958	25000	1			25000		other	0
+013	3	Response	53	330667	28709	1
+013	3	Response	53	335388	33429	1
+013	3	Response	53	340427	38469	1
+013	3	Response	53	345707	43749	1
+013	3	Response	53	350829	48870	2
+013	3	Response	53	354908	52950	2
+013	3	Response	53	359708	57749	1
+013	3	Response	53	364348	62389	2
+013	3	Response	53	368587	66629	1
+013	3	Sound	practise2	373458	71500	1			71500		other	0
+013	3	Response	53	406267	104309	1
+013	3	Picture	3-12-2-3	432276	130318	7	5166	7	130000	5000	miss	0
+013	4	Response	52	454187	1413	1
+013	4	Sound	P0/none	477774	25000	1			25000		other	0
+013	4	Sound	practise1	524274	71500	1			71500		other	0
+013	4	Picture	2-11-2-2	583092	130318	7	5166	7	130000	5000	hit	36
+013	4	Response	61	591947	139173	1
+013	5	Response	53	626187	22598	2
+013	5	Sound	P1/tapping	628590	25000	1			25000		other	0
+013	5	Response	53	629947	26358	2
+013	5	Response	53	637388	33798	2
+013	5	Response	53	643787	40198	2
+013	5	Response	53	649227	45637	1
+013	5	Response	53	654267	50678	1
+013	5	Response	53	659387	55798	1
+013	5	Response	53	664667	61077	1
+013	5	Response	53	669947	66358	1
+013	5	Sound	practise1	675090	71500	1			71500		other	0
+013	5	Picture	3-12-1-3	733908	130318	7	5166	7	130000	5000	hit	49
+013	5	Response	62	743547	139958	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	P2/both	other				25327	1			25000
+Sound	practise2	other				71827	1			71500
+Picture	2-11-1-2	hit	1	13143	9	130645	7	5166	7	130000	5000
+Sound	P2/beat	other				176142	1			25000
+Sound	practise3	other				222643	1			71500
+Picture	2-22-1-2	hit	2	12727	7	281461	7	5166	7	130000	5000
+Sound	P1/tapping	other				326958	1			25000
+Sound	practise2	other				373458	1			71500
+Picture	3-12-2-3	miss				432276	7	5166	7	130000	5000
+Sound	P0/none	other				477774	1			25000
+Sound	practise1	other				524274	1			71500
+Picture	2-11-2-2	hit	1	8855	7	583092	7	5166	7	130000	5000
+Sound	P1/tapping	other				628590	1			25000
+Sound	practise1	other				675090	1			71500
+Picture	3-12-1-3	hit	2	9639	7	733908	7	5166	7	130000	5000
+
+The following output port codes were not sent because of a conflict on the port.
+Port	Code	Time(ms)
+1	2	32695.8
+
+
+{
+   "app": "Presentation Version 22.1 Build 01.21.21",
+   "device": "Dell Inc. OptiPlex 7050",
+   "experiment": "{C8E97CB4-6FCA-44FA-B866-4A2D94B6B85C}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "entrain_test_EB.sce",
+   "subject": "013",
+   "timestamp": "2022/10/17 11:57:52 GMT"
+}
